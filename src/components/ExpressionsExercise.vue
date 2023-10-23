@@ -6,7 +6,7 @@
         <div class="border p-1">
           <p>
             Write a math equation Vue can evaluate, inside of the curly braces
-            below:
+            below: {{ 10 * 2.3571 / 200 }}
           </p>
 
           <p>{{}}</p>
