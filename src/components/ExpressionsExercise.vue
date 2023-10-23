@@ -6,19 +6,20 @@
         <div class="border p-1">
           <p>
             Write a math equation Vue can evaluate, inside of the curly braces
-            below: {{ 10 * 2.3571 / 200 }}
+            below:
           </p>
 
-          <p>{{}}</p>
+          <p>{{ 10 * 10 / 200 * 1000.3958 }}</p>
         </div>
         <div class="border p-1">
           <p>
             Use interpolation to get the customary Hello, World! to display on
             the screen. Don't forget your quotes
           </p>
-          <p>{{}}</p>
+          <p>{{ "hello World!" }}</p>
         </div>
       </div>
     </div>
   </div>
 </template>
+
